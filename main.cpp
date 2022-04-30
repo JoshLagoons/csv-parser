@@ -50,6 +50,7 @@ public:
 	}
 	void display()
 	{
+		//how it would display the data that's getting collected from the csv.
 		cout << "  Inspection ID: " << InspecID << endl;
 		cout << "  Dba Name: " << DbaName << endl;
 		cout << "  AKA Name: " << AkaName << endl;
@@ -99,6 +100,7 @@ void displayfoods(vector<foodRecord>& foods)
 
 int main()
 {
+	//how i input the file from my computer to make it collect the data from the csv.
 	ifstream inputFile;
 	inputFile.open("C:\\Users\\13129\\Desktop\\Food_Inspections.csv");
 	string line = "";
